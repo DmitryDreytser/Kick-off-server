@@ -1,0 +1,168 @@
+@font-face {
+	font-family: Source Sans Pro;
+	src: local("Source Sans Pro"), local("SourceSansPro-Regular"), url(//themes.googleusercontent.com/static/fonts/sourcesanspro/v5/ODelI1aHBYDBqgeIAH2zlBM0YzuT7MdOe03otPbuUS0.woff) format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+body {
+	margin: 0px; padding: 0px; height: 100%;
+}
+html {
+	margin: 0px; padding: 0px; height: 100%;
+}
+section {
+	padding: 0px; display: block;
+}
+article {
+	padding: 0px; display: block;
+}
+body {
+	background: rgb(248, 248, 248); line-height: 1.5; font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+}
+p {
+	margin-top: 0px;
+}
+h2 {
+	font-weight: normal; margin-bottom: 0.7em;
+}
+h3 {
+	font-weight: normal; margin-bottom: 0.7em;
+}
+h1 {
+	font-weight: normal; margin-bottom: 0.7em;
+}
+h1 {
+	font-size: 140%;
+}
+h2 {
+	font-size: 120%;
+}
+h3 {
+	font-size: 110%;
+}
+article > h2:first-child {
+	margin-top: 0px;
+}
+section:first-child > h2 {
+	margin-top: 0px;
+}
+#nav h1 {
+	color: rgb(211, 7, 7); letter-spacing: 0.5px; margin-top: 0px; margin-right: 12px; margin-bottom: 2px;
+}
+a {
+	color: rgb(162, 19, 19); text-decoration: none;
+}
+a:visited {
+	color: rgb(162, 19, 19); text-decoration: none;
+}
+a:link {
+	color: rgb(162, 19, 19); text-decoration: none;
+}
+.quasilink {
+	color: rgb(162, 19, 19); text-decoration: none;
+}
+em {
+	padding-right: 2px;
+}
+.quasilink {
+	cursor: pointer;
+}
+article {
+	background: white; margin: 0px 0px 0px 160px; padding: 30px 50px 100px; border-right-color: rgb(221, 221, 221); border-left-color: rgb(227, 8, 8); border-right-width: 1px; border-left-width: 2px; border-right-style: solid; border-left-style: solid; position: relative; z-index: 2; min-height: 100%; max-width: 700px; box-sizing: border-box; -moz-box-sizing: border-box;
+}
+#nav {
+	left: 0px; width: 160px; text-align: right; padding-top: 30px; position: fixed; z-index: 1; -ms-overflow-y: auto; max-height: 100%; box-sizing: border-box;
+}
+@media screen and (min-width:1000px)
+{
+article {
+	margin: 0px auto;
+}
+#nav {
+	width: auto; right: 50%; border-right-color: transparent; border-right-width: 349px; border-right-style: solid;
+}
+}
+#nav ul {
+	margin: 0px 0px 32px; padding: 0px; display: block;
+}
+#nav li {
+	margin-bottom: 4px; display: block;
+}
+#nav li ul {
+	font-size: 80%; margin-bottom: 0px; display: none;
+}
+#nav li.active ul {
+	display: block;
+}
+#nav li li a {
+	padding-right: 20px; display: inline-block;
+}
+#nav ul a {
+	padding: 0px 7px 1px 11px; color: black;
+}
+#nav ul a.active {
+	color: rgb(227, 8, 8); margin-bottom: -1px; border-bottom-color: rgb(227, 8, 8); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#nav ul a:hover {
+	color: rgb(227, 8, 8); margin-bottom: -1px; border-bottom-color: rgb(227, 8, 8); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#logo {
+	border: 0px currentColor; margin-right: 12px; margin-bottom: 25px;
+}
+section {
+	margin: 1.5em 0px; border-top-color: rgb(227, 8, 8); border-top-width: 1px; border-top-style: solid;
+}
+section.first {
+	border: currentColor; margin-top: 0px;
+}
+#demo {
+	position: relative;
+}
+#demolist {
+	top: 5px; right: 5px; position: absolute; z-index: 25;
+}
+.bankinfo {
+	background: rgb(238, 238, 238); padding: 0px 0.5em; border-radius: 5px; border: 2px solid rgb(170, 170, 170); left: 30px; top: 10px; text-align: left; display: none; position: absolute;
+}
+.bankinfo_close {
+	top: 0px; right: 6px; font-weight: bold; position: absolute; cursor: pointer;
+}
+.bigbutton {
+	background: rgb(162, 19, 19); padding: 0px 1em; text-align: center; color: white !important; line-height: 1.9; display: inline-block; position: relative; cursor: pointer;
+}
+.right.bigbutton {
+	border-top-left-radius: 100px; border-bottom-left-radius: 100px;
+}
+.left.bigbutton {
+	border-top-right-radius: 100px; border-bottom-right-radius: 100px;
+}
+.bigbutton:hover {
+	background: rgb(227, 8, 8);
+}
+th {
+	text-align: left; font-weight: normal; text-decoration: underline;
+}
+#features ul {
+	list-style: none; margin: 0px 0px 1em; padding: 0px 0px 0px 1.2em;
+}
+#features li::before {
+	margin: 0px 0px 0px -1em; padding: 0px; width: 1em; display: inline-block; content: "-";
+}
+.rel {
+	margin-bottom: 0px;
+}
+.rel-note {
+	color: rgb(85, 85, 85); margin-top: 0px;
+}
+pre {
+	padding-left: 15px; border-left-color: rgb(221, 221, 221); border-left-width: 2px; border-left-style: solid;
+}
+code {
+	padding: 0px 2px;
+}
+strong {
+	font-weight: normal; text-decoration: underline;
+}
+.field {
+	border: 1px solid rgb(162, 19, 19);
+}
